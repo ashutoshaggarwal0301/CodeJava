@@ -1,0 +1,21 @@
+package com.company;
+class C1{
+    public int x=23;
+    private int y =25;
+    protected int z=24;
+    int a = 26;
+    public void meth1() {
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
+        System.out.println(a);
+    }
+}
+
+public class ModIfier{
+    public static void main(String[] args) {
+        C1 c = new C1();
+        c.meth1(); 
+
+    }
+}
